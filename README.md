@@ -132,12 +132,16 @@ The project generates two interactive maps:
 ### Top 5 Weather Destinations
 Interactive map showing the French cities with the best weather forecast for the next 7 days.
 
-**Note**: Get it on maps/carte_villes_interactive.html
+![Interactive maps of cities](maps/carte_villes_non_interactive.png)
+
+**Note**: Get the html code with interactive version at maps/carte_villes_interactive.html
 
 ### Recommended Hotels
 Interactive map displaying the top-rated hotels in each recommended destination.
 
-**Note**: Get it on maps/carte_hotels_interactive.html
+![Interactive maps of hotels](maps/carte_hotels_non_interactive.png)
+
+**Note**: Get the html code with interactive version at maps/carte_hotels_interactive.html
 
 ## 🤝 Contact
 
