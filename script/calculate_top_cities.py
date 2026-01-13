@@ -214,12 +214,6 @@ df_top_5_city = df_city[cols].head(5).copy()
 print("\n🏆 TOP 5 calculé :")
 print(df_top_5_city)
 
-# ⚠️ CELLULE FANTÔME - Override avec les villes déjà scrappées ⚠️
-print("\n🎭 Override avec les villes scrappées...")
-override_cities = ["Bayeux", "Le Havre", "Lille", "Mont Saint Michel", "Paris"]
-df_top_5_city = df_city[df_city['city'].isin(override_cities)][cols].copy()
-print(df_top_5_city)
-
 # Upload sur S3
 print("\n📤 Upload vers S3...")
 csv_buffer = StringIO()
